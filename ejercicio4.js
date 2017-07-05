@@ -10,9 +10,11 @@ function espacios (n)
 var n = 5;
 for (var k = 0; k < 2 * n - 1; k++) {
   var i = k < n ? k :  2*n - 2 - k;
+  console.log("esto",i);
   var content = "";
   for (j = 1; j <= 2*i+1; j++)
     content +=  j;
   var sp = espacios (n - (i+1));
+  console.log("contiene",sp);
   console.log(sp + content);
 }
