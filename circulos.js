@@ -37,4 +37,4 @@ function quiz4 (r) {
     console.log (espacios[i] + circulo[i] + circulo[i] );
   }
 }
-quiz4(25)
+quiz4(10)
