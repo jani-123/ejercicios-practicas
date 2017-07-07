@@ -7,9 +7,9 @@ function matriz(n)
 			for(var j=0 ; j<n ; j++)
 				temp[i][j]=0;
 			//temp[i][n-i]=4;
-			temp[i][n-i-1]=n;
+			temp[i][n-i-1]=1;
 		} 
 	   
   console.log(temp);
 }
-matriz(5)
+matriz(5) 

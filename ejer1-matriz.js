@@ -4,12 +4,10 @@ function matriz(n)
 		for(var i=0; i < n; i++)
 		{
 			temp[i]=[];
-			for(var j=0 ; j<n ; j++)
-				temp[i][j]=0;
+			for(var j=n-1 ; j>=0 ; j--)
+				temp[i][j]=j+1;
+               
 
-			//temp[i][j]=1;
-			
-			      
 			temp[i][n-i-1]=n;
 		} 
 	   
